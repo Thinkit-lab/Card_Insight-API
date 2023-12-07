@@ -60,6 +60,9 @@ The Card Verification Microservice is a Spring Boot application that provides ca
 - H2 Database (for simplicity, can be replaced with other databases in production)
 - JUnit 5 for testing
 
+## Swagger
+
+- http://localhost:8080/swagger-ui/index.html#/
 
 ## Configuration
 
