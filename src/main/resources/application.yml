@@ -1,0 +1,28 @@
+spring:
+#  security:
+#    filter:
+#      order: '10'
+
+  datasource:
+    url: jdbc:h2:mem:mintyn
+    driverClassName: org.h2.Driver
+    username: sa
+    password:
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: create-drop
+
+  h2:
+    console:
+      enabled: true
+      path: /h2-console
+jwt:
+  secret-key: Rf42LhB5EfehN4E4VZchpg+SMftg3rweTo4+B91VzvI=
+  expiration: 86400000
+  refresh-token:
+    expiration: 604800000
+
+binlist:
+  card-details:
+    base-url: https://lookup.binlist.net/
